@@ -81,7 +81,7 @@
   <h3> Testing of Code </h3>
   <ul>
     <li> Black Box - Treat the system as black box and try test cases based on input/output specification </li>
-    <li> Gray Box - Has limited knowledge of the system and try test cases based on it. Correctly cleaning upitself </li>
+    <li> Gray Box - Has limited knowledge of the system and try test cases based on it. Correctly cleaning up itself </li>
     <li> White Box - Code details are known. Tests are based on the code.
 </ul>
 </section> 
@@ -115,8 +115,8 @@
         <section>
           <h3>Terminoilogy</h3>
 <ul>
-<li> An Error is made by an Engineer/Algorithm Designer/Implementtor  </li>
-<li> A Fault is manifestation of that error in the code </li>
+<li> An error is made by an Engineer/Algorithm Designer/Implementor  </li>
+<li> A fault is manifestation of that error in the code </li>
 <li> A failure is an incorrect output behavior that is caused by executing a fault </li>
 <li>Testing attempts to discover failures in software systems </li>
 <ul>
@@ -132,7 +132,7 @@
             <li> Faults may be hiding in portions of code that rarely get executed.  </li>
             <li> Sometimes faults mask each other</li>
 	    <li> Create a test that covers all code paths and all functional units </li>
-	    <li> Having all tests pass increases our confidence that our systemhas high quality</li>
+	    <li> Having all tests pass increases our confidence that our system has high quality</li>
 	    
           </ul>
         </section>
@@ -141,7 +141,7 @@
           <h3>Looking for Faults</h3>
 	  <ul>
 	  <li> The input/output space of any software system is vast</li>
-          <li> Tests are a way of sampling the behaviors of a software system looking forfailures </li>
+          <li> Tests are a way of sampling the behaviors of a software system looking for failures </li>
 	  <li> Partition the space into equivalent behaviors and sampling each partition</li>
            
            
@@ -156,13 +156,13 @@
             </ul>
 <pre><code>
 def gcd(a,b):
-    while(1>0):
-        if (a==0):
+    while(1 > 0):
+        if (a == 0):
             return b
-        b = b%a
-        if (b==0):
+        b = b % a
+        if (b == 0):
             return a
-        a = a %b
+        a = a % b
 </code>        </pre>
         </section>
 <section>
@@ -183,8 +183,8 @@ def gcd(a,b):
   <ul>
     <li> Covers all the paths </li>
     <li> Covers all the loops and conditionals </li>
-    <li> Statement Coverage - All statements have beene xecuted. </li>
-    <li> Branch Coverage - all edges in the control graph have beene xecuted at least once . </li>
+    <li> Statement Coverage - All statements have been executed. </li>
+    <li> Branch Coverage - all edges in the control graph have been executed at least once . </li>
     <li> Condition Coverage -all combination of conditions have been covered. </li>
 </li>
 </section>
